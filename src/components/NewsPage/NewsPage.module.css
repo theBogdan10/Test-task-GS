@@ -1,0 +1,25 @@
+
+.title{
+   
+   display: flex;
+   justify-content: center;
+}
+.title h3{
+    color:black;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.topBtn{
+    position: fixed;
+    right: 0;
+    bottom: 5%;
+}
