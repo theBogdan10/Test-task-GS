@@ -10,26 +10,30 @@ const Content = () => {
   return (
     <div className={styles.container}>
       <div className={styles.img}>
-        <div>
+      <h2>Health</h2>
           <NavLink to="/main/health">
             <img src={healthImg} alt=""></img>
+            
           </NavLink>
-        </div>
-        <div>
+          
+          <h2>Sports</h2>
+
           <NavLink to="/main/sports">
             <img src={sportImg} alt=""></img>
           </NavLink>
-        </div>
-        <div>
+      
+          <h2>Technology</h2>
+
           <NavLink to="/main/technology">
             <img src={technologyImg} alt=""></img>
           </NavLink>
-        </div>
-        <div>
+      
+          <h2>Entertainment</h2>
+
           <NavLink to="/main/entertainment">
             <img src={entertainmentImg} alt=""></img>
           </NavLink>
-        </div>
+        
       </div>
     </div>
   );

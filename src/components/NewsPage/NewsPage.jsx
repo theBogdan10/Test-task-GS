@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-expressions */
 import React, { useEffect, useState } from "react";
 import styles from "./NewsPage.module.css";
+import up from '../../img/up.png'
 
 const NewsPage = props => {
-  debugger;
-
   const [news, setNews] = useState([]);
+  const [visible,setVisible] = useState(false)
 
   useEffect(() => {
     fetch(
@@ -36,11 +36,20 @@ const NewsPage = props => {
             </div>
           );
         })}
-        
+
         <div className={styles.topBtn}>
-          <button onclick="topFunction()" id="myBtn" title="Go to top">
-            Top
-          </button> 
+          <img
+            src={up}
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+              });
+            }}
+            id="myBtn"
+            alt=""
+          />
         </div>
       </div>
     </div>

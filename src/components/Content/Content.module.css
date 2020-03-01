@@ -1,16 +1,22 @@
-.container{
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container .img {
+
     display: flex;
     flex-direction: row;
-    align-items:center;
-    justify-content: space-around;
-    align-self: center;
+
+    align-items: center;
+
 }
 
-.img{
-    justify-content: space-around;
-}
-
-.img img{
+.img img {
+    padding: 20px 20px 20px 20px;
     height: 100px;
     width: 200px;
 }

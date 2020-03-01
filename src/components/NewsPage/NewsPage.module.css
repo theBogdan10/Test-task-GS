@@ -20,6 +20,11 @@
 
 .topBtn{
     position: fixed;
-    right: 0;
+    left: 3%;
     bottom: 5%;
+}
+
+.topBtn img{
+    height: 50px;
+    width: 50px;
 }

@@ -13,11 +13,10 @@ const MainPage = () => {
       <Header />
     </div>
     
-
+   
     <div className={styles.cont2}>
-      
-      <Navbar />
-      <div className={styles.app_wrapper_content}>
+    <Navbar />
+     
         <Switch>
           <Route exact path="/main" component={Content} />
           <Route path="/main/health" component={()=><NewsPage category='health' /> } />
@@ -25,7 +24,6 @@ const MainPage = () => {
           <Route path="/main/technology"  component={()=><NewsPage category='technology' /> } />
           <Route path="/main/entertainment"  component={()=><NewsPage category='entertainment' /> } />
         </Switch>
-      </div>
       </div>
     
     </div>
