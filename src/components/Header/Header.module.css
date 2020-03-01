@@ -3,12 +3,16 @@
 
 .header{
    
-    background-color: #9CE6E6;
+    background-color:#302d2e;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
+   
     height:100px;
+    flex-wrap: wrap;
+    overflow: hidden;
    
   }
   
@@ -22,13 +26,17 @@
     width: 50px;
   }
 
+  header h2{
+    color: white;
+  }
+
   .link{
     text-decoration:'none'
   }
 
   .btn{
     font-family: 'Hammersmith One', sans-serif;
-    background-color: rosybrown;
+    background-color: #ebc0cd;
     border: none;
     outline: none;
     text-decoration: none;
@@ -45,5 +53,5 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    opacity: 0.9;
+  
   }

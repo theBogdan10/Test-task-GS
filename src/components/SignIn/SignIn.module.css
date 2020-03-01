@@ -1,11 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
 body{
   
-    height: 100%;
-    margin: 0 ;
-    padding: 0;
-    background-color: #FFC4C4;  
    
+    background:  no-repeat center  fixed;
+    position: relative;
+    background-size: cover;
+    /* background-color: #FFC4C4;   */
+    
+    min-height: 100%;
+    background-image: url('../../img/newsback.jpg');
+
 }
+
+
 
 .container{
    display: flex;

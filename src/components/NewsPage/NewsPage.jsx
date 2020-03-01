@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-expressions */
 import React, { useEffect, useState } from "react";
 import styles from "./NewsPage.module.css";
-import up from '../../img/up.png'
+import up from "../../img/up.png";
+import back from "../../img/newsback.jpg"
 
 const NewsPage = props => {
   const [news, setNews] = useState([]);
-  const [visible,setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     fetch(
@@ -16,7 +17,8 @@ const NewsPage = props => {
       .then(responce => responce.json())
       .then(result => {
         setNews(result.articles);
-      });
+      })
+      .catch(err=>console.log(err))
   }, [props.category]);
 
   return (
@@ -27,16 +29,25 @@ const NewsPage = props => {
             <div>
               <div className={styles.container}>
                 <div className={styles.title}>
+                  <div>
+                    <img
+                      className={styles.imgNews}
+                      src={item.urlToImage}
+                      alt=""
+                    />
+                  </div>
                   <h3>{item.title}</h3>
                 </div>
-                <div>
+                <div className={styles.description}>
                   <p>{item.description}</p>
                 </div>
+                <hr />
               </div>
             </div>
           );
         })}
 
+       
         <div className={styles.topBtn}>
           <img
             src={up}
