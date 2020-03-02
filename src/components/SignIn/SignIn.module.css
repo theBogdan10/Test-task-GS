@@ -1,53 +1,85 @@
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+
+
+* {
+    margin: 0;
     padding: 0;
 }
 
 
-body{
-  
-   
-    background:  no-repeat center  fixed;
-    position: relative;
+
+body {
+    background: no-repeat center fixed;
     background-size: cover;
-    /* background-color: #FFC4C4;   */
-    
     min-height: 100%;
-    background-image: url('../../img/newsback.jpg');
+    background-image: url('../../img/back.png');
+}
 
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.child {
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 
+input {
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 20px;
+    text-decoration: none;
+    outline: none;
+    height: 20px;
+    width: 200px;
+    font-family: 'Hammersmith One', sans-serif;
 
-.container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
-.btn{
-    
+input:focus {
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #9CE6E6;
+}
+
+.btn {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border: none;
     outline: none;
     font-size: 16px;
     font-family: 'Hammersmith One', sans-serif;
-    background-color:#9CE6E6;
+    background-color: #ebc9d3;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 5px ;
+    padding: 5px 5px;
     border-radius: 20px;
     color: black;
 }
 
-.btn img{
+.btn img {
     width: 20px;
     padding-left: 5px;
-  }
+}
 
-.btn:hover{
+.btn:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}

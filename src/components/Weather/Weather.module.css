@@ -1,0 +1,18 @@
+.cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    min-height: 100%;
+    
+}
+
+.cont .weatherCont{
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}

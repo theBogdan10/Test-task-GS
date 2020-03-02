@@ -5,10 +5,12 @@ import Header from "../Header/Header";
 import Navbar from "../Navbar/Navbar";
 import Content from "../Content/Content";
 import NewsPage from "../NewsPage/NewsPage";
+import Weather from "../Weather/Weather";
+
 
 const MainPage = () => {
   return (
-   <div>
+    <div className={styles.wrapper}>
       <div className={styles.container}>
         <Header />
       </div>
@@ -34,9 +36,10 @@ const MainPage = () => {
             path="/main/entertainment"
             component={() => <NewsPage category="entertainment" />}
           />
+          <Route path="/main/weather" component={() => <Weather />} />
         </Switch>
       </div>
-      </div>
+    </div>
   );
 };
 

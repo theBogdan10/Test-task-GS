@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
 
 
-.header{
-   
-    background-color:#302d2e;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-   
-    height:100px;
-    flex-wrap: wrap;
-    overflow: hidden;
-   
-  }
-  
-  .header img{
-    width: 20px;
-    padding-left: 5px;
-  }
+.header {
 
-  .header .logo{
-    height: 50px;
-    width: 50px;
-  }
+  background-color: #302d2e;
 
-  header h2{
-    color: white;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 
-  .link{
-    text-decoration:'none'
-  }
+  height: 100px;
+  flex-wrap: wrap;
+  overflow: hidden;
 
-  .btn{
-    font-family: 'Hammersmith One', sans-serif;
-    background-color: #ebc0cd;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 5px 5px ;
-    border-radius: 20px;
-    color: black;
-  }
+}
+
+.header img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.header .logo {
+  height: 50px;
+  width: 50px;
+}
+
+header h2 {
+  color: white;
+}
+
+.link {
+  text-decoration: 'none'
+}
+
+.btn {
+  font-family: 'Hammersmith One', sans-serif;
+  background-color: #ebc9d3;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 20px;
+  color: black;
+}
 
 
 
-  .btn:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  
-  }
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}

@@ -6,7 +6,6 @@ import back from "../../img/newsback.jpg"
 
 const NewsPage = props => {
   const [news, setNews] = useState([]);
-  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     fetch(

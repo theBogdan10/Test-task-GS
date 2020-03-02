@@ -31,6 +31,11 @@ const Navbar = () => {
             Main Page
           </NavLink>
         </div>
+        <div className={`${s.item} ${s.active}`}>
+          <NavLink exact to="/main/weather" activeClassName={s.activeLink}>
+            Weather
+          </NavLink>
+        </div>
       </nav>
     </div>
   );
