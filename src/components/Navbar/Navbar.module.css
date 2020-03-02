@@ -20,19 +20,16 @@
 .item a {
   color: white;
   text-decoration: none;
-  /* position: fixed; */
 }
 
 .item {
   padding: 15px;
 }
 
-
 .item a.activeLink {
   color: #1b1b1b;
 
 }
-
 
 h2 {
   color: white;

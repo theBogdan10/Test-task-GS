@@ -7,7 +7,6 @@ import Content from "../Content/Content";
 import NewsPage from "../NewsPage/NewsPage";
 import Weather from "../Weather/Weather";
 
-
 const MainPage = () => {
   return (
     <div className={styles.wrapper}>

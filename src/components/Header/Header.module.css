@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
 
-
 .header {
-
   background-color: #302d2e;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-
   height: 100px;
   flex-wrap: wrap;
   overflow: hidden;
-
 }
 
 .header img {

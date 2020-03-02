@@ -55,8 +55,6 @@ const Weather = () => {
   return (
     <div className={styles.cont}>
       <h1>Minsk</h1>
-      {/* <input type='text'  onChange={(el)=>setCityCopy(el)}  />
-      <button onClick={()=>setCity(cityCopy)}>Search</button>  */}
 
       {value.map(function(e) {
         if (e.dt_txt.indexOf("15:00") > 0) {

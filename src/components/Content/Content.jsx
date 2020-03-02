@@ -8,32 +8,28 @@ import entertainmentImg from "../../img/entertainment.png";
 
 const Content = () => {
   return (
+    
     <div className={styles.container}>
       <div className={styles.img}>
-      <h2>Health</h2>
-          <NavLink to="/main/health">
-            <img src={healthImg} alt=""></img>
-            
-          </NavLink>
-          
-          <h2>Sports</h2>
+        <h2>Health</h2>
+        <NavLink to="/main/health">
+          <img src={healthImg} alt=""></img>
+        </NavLink>
 
-          <NavLink to="/main/sports">
-            <img src={sportImg} alt=""></img>
-          </NavLink>
-      
-          <h2>Technology</h2>
+        <h2>Sports</h2>
+        <NavLink to="/main/sports">
+          <img src={sportImg} alt=""></img>
+        </NavLink>
 
-          <NavLink to="/main/technology">
-            <img src={technologyImg} alt=""></img>
-          </NavLink>
-      
-          <h2>Entertainment</h2>
+        <h2>Technology</h2>
+        <NavLink to="/main/technology">
+          <img src={technologyImg} alt=""></img>
+        </NavLink>
 
-          <NavLink to="/main/entertainment">
-            <img src={entertainmentImg} alt=""></img>
-          </NavLink>
-        
+        <h2>Entertainment</h2>
+        <NavLink to="/main/entertainment">
+          <img src={entertainmentImg} alt=""></img>
+        </NavLink>
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./SignIn.module.css";
 import signInIcon from "../../img/login.png";
-import MainPage from "../MainPage/MainPage";
 
 const SignIn = () => {
   const [info, setInfo] = useState({ name: "", surname: "" });

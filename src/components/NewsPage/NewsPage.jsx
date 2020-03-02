@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./NewsPage.module.css";
 import up from "../../img/up.png";
-import back from "../../img/newsback.jpg"
 
 const NewsPage = props => {
   const [news, setNews] = useState([]);
@@ -17,7 +16,7 @@ const NewsPage = props => {
       .then(result => {
         setNews(result.articles);
       })
-      .catch(err=>console.log(err))
+      .catch(err => console.log(err));
   }, [props.category]);
 
   return (
@@ -46,7 +45,6 @@ const NewsPage = props => {
           );
         })}
 
-       
         <div className={styles.topBtn}>
           <img
             src={up}

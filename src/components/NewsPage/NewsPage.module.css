@@ -1,20 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-.title{
-   
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 20px;
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-
-.title h3{
+.title h3 {
     display: flex;
-    color:black;
+    color: black;
     align-self: center;
     justify-content: center;
+    font-family: 'Lato', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -22,7 +22,8 @@
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
 }
-.title img{
+
+.title img {
     height: 100px;
     width: 150px;
     border-radius: 10%;
@@ -30,26 +31,27 @@
     flex-direction: row;
     align-self: start;
     justify-content: flex-start;
+    margin-right: 15px;
 }
 
-hr{
+hr {
     border: 0.5px solid black;
     opacity: 0.3;
     margin-top: 30px;
 }
 
-.topBtn{
+.topBtn {
     position: fixed;
     left: 0;
     bottom: 5%;
 }
 
-.topBtn img{
+.topBtn img {
     height: 50px;
     width: 50px;
 }
 
-.container .description{
+.container .description {
     display: flex;
     justify-content: flex-end;
 }

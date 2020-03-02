@@ -1,29 +1,25 @@
 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .container .img {
-
-    /* display: flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-self:center;
-    align-content: center; */
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow: auto;
+    min-width: 100%;
 }
 
-h2{
+h2 {
     color: black;
 }
 
 .img img {
     padding: 20px 20px 20px 20px;
-    height: 100px;
+    height: 150px;
     width: 200px;
 }
